@@ -1,0 +1,137 @@
+/* Page Header Styling */
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+.page-header h1 a:hover {
+    color: #f0f0f0;
+    transition: color 0.3s ease;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+/* Question Article Styling */
+.question {
+    margin-bottom: 70px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.question:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.question h2 a,
+.question h2 a:visited {
+    color: #C25100;
+    text-decoration: none;
+    font-size: 24pt;
+}
+
+.question h2 a:hover {
+    color: #8B3700;
+    text-decoration: underline;
+}
+
+.question time {
+    color: #828282;
+    font-size: 14px;
+    float: right;
+    margin-top: 10px;
+}
+
+.question p {
+    color: #333333;
+    line-height: 1.6;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Body Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Container Spacing */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 15px 20px;
+    }
+    
+    .page-header h1,
+    .page-header h1 a {
+        font-size: 28pt;
+    }
+    
+    .question {
+        margin-bottom: 40px;
+        padding: 15px;
+    }
+    
+    .question h2 a {
+        font-size: 20pt;
+    }
+    
+    .question time {
+        float: none;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Additional Utility Classes */
+.text-muted {
+    color: #828282 !important;
+}
+
+.btn-primary {
+    background-color: #C25100;
+    border-color: #C25100;
+}
+
+.btn-primary:hover {
+    background-color: #8B3700;
+    border-color: #8B3700;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+    margin-left: 15px;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
+    border-color: #C25100;
+}
