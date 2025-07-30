@@ -1,0 +1,12 @@
+{%extends "newapp/base.html"%}
+
+{%block content%}
+<article class="question">
+        {% if question.published_date %}
+            <time class="date">
+                {{ question.published_date }}
+            </time>
+        {% endif %}
+        <h2>{{ question.title }}</h2>
+        </article>
+{%endblock%}
